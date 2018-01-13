@@ -1,0 +1,12 @@
+contain function in c++
+get char -----> getch / getche
+getch()
+cout<<"*"
+
+scanf ... convert from string to any datatype
+
+srad() <---- 
+rad()%...... =
+id + random number = positive number
+
+convert from uppercase to lowercase to make static strings

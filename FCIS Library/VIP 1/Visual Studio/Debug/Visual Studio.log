@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  Add.cpp
+  Generating Code...
+Main.obj : error LNK2005: "int __cdecl added(int,int)" (?added@@YAHHH@Z) already defined in Add.obj
+E:\Imp. Files\Joe\Projects\FCIS Library\VIP 1\Debug\Visual Studio.exe : fatal error LNK1169: one or more multiply defined symbols found

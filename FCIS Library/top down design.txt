@@ -1,0 +1,190 @@
+int main()
+{
+	balances();
+	read();
+	customer_or_employee();
+	customer();
+	employee();
+	write();
+}
+
+void read()
+{
+	read_library();
+	read_out();
+	read_deleted();
+	read_sales();
+	read_borrowed();
+}
+
+void balances()
+{
+	lines_count();
+}
+
+int lines_count(){}
+
+void read_library(){}
+
+void read_out(){}
+
+void read_deleted(){}
+
+void read_sales(){}
+
+void separating_line(){}
+
+int customer_or_employee()
+{
+	separating_line();
+	getpassword();
+	password();
+}
+
+int getpassword(){}
+
+int password()
+{
+	separating_line();
+	getpassword();
+}
+
+void customer_list(){}
+
+void employee_list(){}
+
+void customer()
+{
+	customer_list();
+	separating_line();
+	show_all();
+	buy_borrow_both();
+	search();
+	clear();
+}
+
+void employee()
+{
+	employee_list();
+	separating_line(); show_all();
+	buy_borrow_both();
+	borrow_book();
+	buy_book();
+	search();
+	add_choice();
+	delete_book();
+	display_sales_transaction();
+	clear();
+}
+
+void mini_outlook(){}
+
+void outlook(){}
+
+void show_all()
+{
+	outlook();
+}
+
+void buy_borrow_both()
+{
+	outlook();
+}
+
+void borrow_book()
+{
+	mini_outlook();
+	borrow_transaction();
+}
+
+void borrow_transaction()
+{
+	save_borrowed();
+}
+
+void buy_book()
+{
+	mini_outlook();
+	buy_transaction();
+}
+
+void buy_transaction()
+{
+	delete_book();
+}
+
+void search()
+{
+	mean_title();
+	mean_author();
+	outlook();
+}
+
+void add_choice()
+{
+	manual_add();
+	add_from_delete();
+	increase_amount();
+}
+
+void manual_add(){}
+
+void add_from_delete()
+{
+	outlook();
+}
+
+void increase_amount(){}
+
+void delete_book()
+{
+	save_delete();
+}
+
+void save_delete(){}
+
+void write()
+{
+	write_library();
+	write_out();
+	write_deleted();
+	write_sales();
+	write_borrowed();
+}
+
+void write_library(){}
+
+void write_out(){}
+
+void write_deleted(){}
+
+void write_sales(){}
+
+void autosave()
+{
+	write();
+	read();
+}
+
+void display_sales_transaction()
+{
+	separating_line();
+}
+
+int mean_title()
+{
+	outlook();
+}
+
+int mean_author()
+{
+	outlook();
+}
+
+void save_borrowed(){}
+
+void read_borrowed(){}
+
+void write_borrowed(){}
+
+int clear(){}
